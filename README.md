@@ -12,7 +12,14 @@
         </samp>
 </h3>
 <br>
-
+<div align="center">
+    <h4>📂 Folder Guide</h4>
+    <samp>
+        <code>detailed-notes/</code> → Full technical breakdowns
+        <br>
+        <code>paper-briefs/</code> → Visual summaries (diagrams + core ideas)
+    </samp>
+</div>
 <p align="center">
         <!-- Intro -->
         <samp>
@@ -38,9 +45,6 @@
                         src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white">
         </a>
 </p>
-### 📂 Folder Guide
-- `detailed-notes/` → Full technical breakdowns
-- `paper-briefs/` → Visual summaries (diagrams + core ideas)
 <!-- Details Section -->
 <details align="center">
     <summary> <samp>☰ More</samp></summary>
