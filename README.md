@@ -3,9 +3,7 @@
 
 <!-- A more reliable Profile Views Counter -->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mindsRiverPonder&label=Profile%20views&color=0e75b6&style=flat" alt="mindsriverponder" /> </p>
-### 📂 Folder Guide
-- `detailed-notes/` → Full technical breakdowns
-- `paper-briefs/` → Visual summaries (diagrams + core ideas)
+
 
 <!-- Title -->
 <h3 align="center">
@@ -40,7 +38,9 @@
                         src="https://img.shields.io/badge/-Java-007396?style=flat-square&logo=Java&logoColor=white">
         </a>
 </p>
-
+### 📂 Folder Guide
+- `detailed-notes/` → Full technical breakdowns
+- `paper-briefs/` → Visual summaries (diagrams + core ideas)
 <!-- Details Section -->
 <details align="center">
     <summary> <samp>☰ More</samp></summary>
