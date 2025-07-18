@@ -3,15 +3,6 @@
 
 <!-- A more reliable Profile Views Counter -->
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mindsRiverPonder&label=Profile%20views&color=0e75b6&style=flat" alt="mindsriverponder" /> </p>
-
-
-<!-- Title -->
-<h3 align="center">
-        <samp>> Hey There!, I am
-                <b>MindsRiverPonder</b>
-        </samp>
-</h3>
-<br>
 <div align="center">
     <h4>📂 Folder Guide</h4>
     <samp>
@@ -20,6 +11,15 @@
         <code>paper-briefs/</code> → Visual summaries (diagrams + core ideas)
     </samp>
 </div>
+
+<!-- Title -->
+<h3 align="center">
+        <samp>> Hey There!, I am
+                <b>MindsRiverPonder</b>
+        </samp>
+</h3>
+<br>
+
 <p align="center">
         <!-- Intro -->
         <samp>
