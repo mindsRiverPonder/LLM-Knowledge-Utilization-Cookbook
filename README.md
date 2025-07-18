@@ -1,8 +1,8 @@
 <!-- mindsRiverPonder -->
 
 
-<!-- Profile Views Counter -->
-![Profile views](https://gpvc.arturio.dev/mindsRiverPonder?v=3)
+<!-- A more reliable Profile Views Counter -->
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=mindsRiverPonder&label=Profile%20views&color=0e75b6&style=flat" alt="mindsriverponder" /> </p>
 
 <!-- Title -->
 <h3 align="center">
