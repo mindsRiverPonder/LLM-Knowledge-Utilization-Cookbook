@@ -43,7 +43,7 @@ Hierarchical Document Refinement for Long-context Retrieval-augmented Generation
     3.  **步骤2: 层次化文档结构化**:
         -   原始长文档（如图中4k+ tokens）被输入一个LLM。
         -   该LLM输出一个压缩后的XML格式文档（~300 tokens），其中包含`<section>`, `<subsection>`, `<br>`, `<skip>`等标签。
-  ![syn](/image/syn.png)
+  ![syn](image/syn.png)
         -   这个XML文本被解析成一个结构化的文档树（Doc Tree）。
     4.  **步骤3: 自适应文档精炼**:
         -   **计算局部得分 (Local Score)**: 从叶子节点（段落）开始，计算每个段落与Query的相似度得分，然后将分数向上聚合到父节点（自底向上）。
@@ -71,13 +71,13 @@ Hierarchical Document Refinement for Long-context Retrieval-augmented Generation
 ## 5. 实验结果
 
 - **性能指标对比表** 
-  ![t2](/image/t2.png)
+  ![t2](image/t2.png)
     -   在所有7个数据集上，**LongRefiner**在2k Token的限制下，其QA性能（Acc/F1）全面超越了所有基线方法。例如，在NQ数据集上，LongRefiner的Acc达到54.4，而最强的基线LongLLMLingua为45.4。
     -   在效率方面，LongRefiner的延迟（10.8ms）远低于性能次优的基于困惑度的方法（如LongLLMLingua为496.6ms），与简单的基于检索的方法（如Bge-reranker为8.0ms）在同一数量级。
     -   与使用完整文档（Full Content）相比，LongRefiner在多数数据集上取得了更优或相当的性能，但使用的Token数量减少了约10倍（1933 vs 19567），延迟降低了约4倍（10.8ms vs 40.6ms）。
 
 - **消融研究要点** 
-  ![t3](/image/t3.png)
+  ![t3](image/t3.png)
     -   消融实验证明了框架中三个关键模块的必要性。移除任何一个模块都会导致所有类型QA任务的性能显著下降。
     -   **移除“层次化文档结构化”模块对性能的损害最大**，导致性能下降近20%。这表明将文档从扁平文本转换为结构化表示是该方法成功的基石，否则模型会退化为基本的块选择。
     -   移除“查询分析”或“自适应精炼”模块同样会降低性能，验证了从局部和全局双重角度评估信息重要性的有效性。
