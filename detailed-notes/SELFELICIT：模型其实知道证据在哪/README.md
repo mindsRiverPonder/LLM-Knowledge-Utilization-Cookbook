@@ -6,7 +6,7 @@
 
 
 - **Authors**: Zhining Liu¹, Rana Ali Amjad², Ravinarayana Adkathimar², Tianxin Wei¹, Hanghang Tong¹, et al.
-- **Venue & Year**: arXiv, 2025 (v2, May 26, 2025)
+- **Venue & Year**: arXiv, 2025 
 - **URL / DOI**: https://arxiv.org/abs/2502.08767v2
 
 ---
@@ -159,4 +159,5 @@ SELFELICIT的运作流程分为清晰的两个阶段：
 - **标签**:知识溯源, 注意力机制, 推理时优化, RAG, 上下文利用
 
 ## 9. 本论文笔记知乎链接
+
 * 敬请期待
