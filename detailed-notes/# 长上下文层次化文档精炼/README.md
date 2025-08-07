@@ -108,4 +108,4 @@ Hierarchical Document Refinement for Long-context Retrieval-augmented Generation
 - **标签**: RAG, 长上下文, 文档精炼, 层次化结构
 
 ## 9. 本论文笔记知乎链接
-* 敬请期待
+* https://zhuanlan.zhihu.com/p/1936465311260979335
