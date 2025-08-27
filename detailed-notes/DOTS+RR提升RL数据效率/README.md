@@ -29,14 +29,14 @@
 
 - **关键概念**：
   - **自适应难度**：衡量当前策略在问题q上的失败率。
-    $$
+    $`
     d_q^{(t)} = \frac{1}{G} \sum_{i=1}^G (1 - r_i^{(t)})
-    $$
+    `$
     其中，$G$ 是Rollout次数，$r_i^{(t)}$ 是第 $i$ 次Rollout的奖励（0或1）。$d_q^{(t)}$ 越接近0.5，学习信号越强。
   - **Rollout回放的GRPO损失 (GRPO-RR Loss)**：
-    $$
+    $`
     J_{\text{GRPO-RR}}(\theta) \propto \sum \left( \min (\tilde{r}_{i,t}(\theta) \hat{A}_i, \text{clip}(\dots)\hat{A}_i) - \beta D_{\text{KL}}(\pi_\theta \| \pi_{\text{ref}}) \right)
-    $$
+    `$
     关键在于重要性采样比率 $\tilde{r}_{i,t}(\theta) = \frac{\pi_\theta(\dots)}{\pi_{\text{behavior}}(\dots)}$，它用当前策略 $\pi_\theta$ 和生成该Rollout的行为策略 $\pi_{\text{behavior}}$ 之间的概率比，来修正从回放缓冲区中取出的旧数据的梯度贡献。
 
 
@@ -90,5 +90,6 @@
 
 ## 9. 本论文笔记知乎链接
 * 敬请期待
+
 
 
