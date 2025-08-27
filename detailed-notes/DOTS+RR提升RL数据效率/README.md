@@ -37,7 +37,7 @@
     $`
     J_{\text{GRPO-RR}}(\theta) \propto \sum \left( \min (\tilde{r}_{i,t}(\theta) \hat{A}_i, \text{clip}(\dots)\hat{A}_i) - \beta D_{\text{KL}}(\pi_\theta \| \pi_{\text{ref}}) \right)
     `$
-    关键在于重要性采样比率 $\tilde{r}_{i,t}(\theta) = \frac{\pi_\theta(\dots)}{\pi_{\text{behavior}}(\dots)}$，它用当前策略 $\pi_\theta$ 和生成该Rollout的行为策略 $\pi_{\text{behavior}}$ 之间的概率比，来修正从回放缓冲区中取出的旧数据的梯度贡献。
+    关键在于重要性采样比率 $`\tilde{r}_{i,t}(\theta) = \frac{\pi_\theta(\dots)}{\pi_{\text{behavior}}(\dots)}`$，它用当前策略 $\pi_\theta$ 和生成该Rollout的行为策略 $\pi_{\text{behavior}}$ 之间的概率比，来修正从回放缓冲区中取出的旧数据的梯度贡献。
 
 
 ## 4. 实验与数据
@@ -90,6 +90,7 @@
 
 ## 9. 本论文笔记知乎链接
 * 敬请期待
+
 
 
 
