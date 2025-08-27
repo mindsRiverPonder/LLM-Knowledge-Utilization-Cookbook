@@ -28,9 +28,9 @@ DAPO: 一个开源的大规模语言模型强化学习系统
 
 - **关键公式或伪代码**:
   DAPO的核心目标函数如下，它整合了词元级损失和解耦裁剪：
-  $￥
+  ```math
   J_{\text{DAPO}}(\theta) = \mathbb{E} \left[ \frac{1}{\sum_{i=1}^G |o_i|} \sum_{i=1}^G \sum_{t=1}^{|o_i|} \min \left( r_{i,t}(\theta) \hat{A}_{i,t}, \text{clip}(r_{i,t}(\theta), 1-\epsilon_{\text{low}}, 1+\epsilon_{\text{high}}) \hat{A}_{i,t} \right) \right]
-  $$
+  ```
   其中，约束条件 `s.t. 0 < |{o_i | is_equivalent(a, o_i)}| < G` 体现了动态采样的思想。
   - $1/\sum|o_i|$: 体现了词元级损失的归一化方式，所有词元的权重相同。
   - $\text{clip}(..., 1-\epsilon_{\text{low}}, 1+\epsilon_{\text{high}})$: 体现了解耦裁剪（Clip-Higher）的核心机制。
@@ -87,5 +87,6 @@ DAPO: 一个开源的大规模语言模型强化学习系统
 
 ## 9. 本论文笔记知乎链接
 * 敬请期待
+
 
 
