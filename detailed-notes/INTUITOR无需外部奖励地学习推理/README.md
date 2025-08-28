@@ -1,4 +1,4 @@
-# 论文标题：Learning to Reason without External Rewards 
+# Learning to Reason without External Rewards 
 无需外部奖励地学习推理
 - **Authors**: Xuandong Zhao*, Zhewei Kang*, Aosong Feng, Sergey Levine, Dawn Song
 - **Venue & Year**: arXiv, 2025
@@ -96,3 +96,4 @@
   
 ## 9. 本论文笔记知乎链接
 * 敬请期待
+
