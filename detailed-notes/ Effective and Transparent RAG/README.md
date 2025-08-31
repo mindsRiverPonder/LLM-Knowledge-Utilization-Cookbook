@@ -66,7 +66,7 @@
   ![f2](image23/f2.png)
     - **自适应奖励的有效性**: 与仅使用格式和准确率奖励的 Naive GRPO 基线相比，ARENA 的多维度奖励机制（特别是相关性奖励）能显著提升模型的性能和输出的可解释性（如 relevance score）。
   ![t6](image23/t6.png)
-  ![t10](image23/t10.png)
+  <br>![t10](image23/t10.png)
   (上图是HotpotQA，下图是2WikiMultiHopQA)
     - **答案准确性奖励信号消融**：对比了使用 EM（精确匹配）、F1 和 GPT-4o 判断 作为奖励信号的效果，在 HotpotQA 和 2WikiMultiHopQA 数据集上，使用最严格、最简单的 EM 奖励 反而取得了最佳的最终评测结果
 
@@ -92,3 +92,4 @@
 ## 9. 本论文笔记知乎链接
 
 * 敬请期待
+
